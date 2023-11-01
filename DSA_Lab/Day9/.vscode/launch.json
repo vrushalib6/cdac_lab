@@ -1,0 +1,154 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "BinarySearch1",
+            "request": "launch",
+            "mainClass": "BinarySearch1",
+            "projectName": "Day9_3be64d7a"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "BinarySearch",
+            "projectName": "Day9_3be64d7a"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "BubbleSort",
+            "projectName": "Day9_3be64d7a"
+        },
+        {
+            "type": "java",
+            "name": "Bubblesort1",
+            "request": "launch",
+            "mainClass": "Bubblesort1",
+            "projectName": "Day9_3be64d7a"
+        },
+        {
+            "type": "java",
+            "name": "InsertionSort",
+            "request": "launch",
+            "mainClass": "InsertionSort",
+            "projectName": "Day9_3be64d7a"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearchArray",
+            "request": "launch",
+            "mainClass": "LinearSearchArray",
+            "projectName": "Day9_3be64d7a"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "MergeSort",
+            "projectName": "Day9_3be64d7a"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort2",
+            "request": "launch",
+            "mainClass": "MergeSort2",
+            "projectName": "Day9_3be64d7a"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort3",
+            "request": "launch",
+            "mainClass": "MergeSort3",
+            "projectName": "Day9_3be64d7a"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort4",
+            "request": "launch",
+            "mainClass": "MergeSort4",
+            "projectName": "Day9_3be64d7a"
+        },
+        {
+            "type": "java",
+            "name": "MergerSort5",
+            "request": "launch",
+            "mainClass": "MergerSort5",
+            "projectName": "Day9_3be64d7a"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "QuickSort",
+            "projectName": "Day9_3be64d7a"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort1",
+            "request": "launch",
+            "mainClass": "QuickSort1",
+            "projectName": "Day9_3be64d7a"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort2",
+            "request": "launch",
+            "mainClass": "QuickSort2",
+            "projectName": "Day9_3be64d7a"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort3",
+            "request": "launch",
+            "mainClass": "QuickSort3",
+            "projectName": "Day9_3be64d7a"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort4",
+            "request": "launch",
+            "mainClass": "QuickSort4",
+            "projectName": "Day9_3be64d7a"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort5",
+            "request": "launch",
+            "mainClass": "QuickSort5",
+            "projectName": "Day9_3be64d7a"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "SelectionSort",
+            "projectName": "Day9_3be64d7a"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort1",
+            "request": "launch",
+            "mainClass": "SelectionSort1",
+            "projectName": "Day9_3be64d7a"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort2",
+            "request": "launch",
+            "mainClass": "SelectionSort2",
+            "projectName": "Day9_3be64d7a"
+        }
+    ]
+}
