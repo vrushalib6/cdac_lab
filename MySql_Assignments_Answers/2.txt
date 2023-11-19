@@ -1,0 +1,5 @@
+1) cnum
+2) Rating
+3)for row =tuple, entity
+  for column = attribue
+4)?

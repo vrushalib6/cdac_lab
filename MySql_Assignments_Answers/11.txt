@@ -1,0 +1,28 @@
+1)
+ select onum from orders where snum=(select snum from customers where cname='Cisneros');
++------+
+| onum |
++------+
+| 3001 |
+| 3006 |
++------+
+
+2)
+ select cname, rating from customers where rating > (select avg(rating) from customers);
++----------+--------+
+| cname    | rating |
++----------+--------+
+| Giovanni |    200 |
+| Liu      |    200 |
+| Grass    |    300 |
+| Cisneros |    300 |
++----------+--------+
+4 rows in set (0.00 sec)
+
+mysql> select avg(rating) from customers;
++-------------+
+| avg(rating) |
++-------------+
+|    185.7143 |
++-------------+
+1 row in set (0.00 sec)

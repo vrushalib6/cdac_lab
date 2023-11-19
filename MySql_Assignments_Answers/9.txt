@@ -1,0 +1,58 @@
+1)
+ select orders.onum, customers.cname from orders, customers where orders.cnum=customers.cnum;
++------+----------+
+| onum | cname    |
++------+----------+
+| 3001 | Cisneros |
+| 3003 | Hoffman  |
+| 3002 | Pereira  |
+| 3005 | Liu      |
+| 3006 | Cisneros |
+| 3009 | Giovanni |
+| 3007 | Grass    |
+| 3008 | Clemens  |
+| 3010 | Grass    |
+| 3011 | Clemens  |
++------+----------+
+10 rows in set (0.00 sec)
+
+2)
+select onum, cname, sname from orders, customers, salespeople where orders.cnum=customers.cnum and orders.snum= salespeople.snum;
++------+----------+---------+
+| onum | cname    | sname   |
++------+----------+---------+
+| 3003 | Hoffman  |  Peel   |
+| 3009 | Giovanni | Axelrod |
+| 3005 | Liu      | Serres  |
+| 3010 | Grass    | Serres  |
+| 3007 | Grass    | Serres  |
+| 3011 | Clemens  |  Peel   |
+| 3008 | Clemens  |  Peel   |
+| 3006 | Cisneros | Rifkin  |
+| 3001 | Cisneros | Rifkin  |
+| 3002 | Pereira  | Motika  |
++------+----------+---------+
+10 rows in set (0.00 sec)
+
+3)
+select cname, sname,comm from customers, salespeople where customers.snum= salespeople.snum having comm>0.12;
++----------+--------+------+
+| cname    | sname  | comm |
++----------+--------+------+
+| Liu      | Serres | 0.13 |
+| Grass    | Serres | 0.13 |
+| Cisneros | Rifkin | 0.15 |
++----------+--------+------+
+3 rows in set (0.00 sec)
+
+4)
+ select cname,rating,comm from customers, salespeople where customers.snum = salespeople.snum  having rating>100 order by cname;
++----------+--------+------+
+| cname    | rating | comm |
++----------+--------+------+
+| Cisneros |    300 | 0.15 |
+| Giovanni |    200 | 0.10 |
+| Grass    |    300 | 0.13 |
+| Liu      |    200 | 0.13 |
++----------+--------+------+
+4 rows in set (0.00 sec)
