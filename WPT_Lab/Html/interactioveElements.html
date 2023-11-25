@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Interactive elements
+        </title>
+    </head>
+    <body>
+        <details>
+            <summary>
+                details and summary elements are newly introduced in html5
+            </summary>
+        </details>
+
+        <menu>
+            <command onclick="alert('hello, we are using command elements')">click here.</command>
+        </menu>
+        <!-- </menu>     only on safari -->
+
+        <menu>
+            <li><command type="radio" radiogroup="bgcolor" onclick="documnet.bgColor='lighrgreen'">Light green</command></li>
+            <li><command type="radio" radiogroup="bgcolor" onclick="documnet.bgColor='blue'">Blue</command></li>
+            <li><command type="radio" radiogroup="bgcolor" onclick="documnet.bgColor='yellow'">Yellow</command></li>
+        </menu>
+        <h4>only firefox8+ support, no browser properly supports the menu elemnet</h4>
+        <div id="page-wrapper">
+            <h1>HTML5 Context Menu</h1>
+            <div id="target" contextmenu="menu">Right-click here to see the menu</div>
+            <menu type="context" id="menu">
+                <menu label="file">
+                    <menuitem label="New"></menuitem>
+                    <menuitem label="Save"></menuitem>
+                    <menuitem label="Open"></menuitem>
+                </menu>
+            </menu>
+        </div>
+
+        <p>To open the task element press<kbd>CTRL</kbd>+<KBD>ALT</KBD>+<KBD>DELETE</KBD></p>
+
+        <p>This is example of time<time datetime="2020-12-10">friday</time></p>
+        <p><time>9:30</time></p>
+       
+    </body>
+</html>

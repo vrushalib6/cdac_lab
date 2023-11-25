@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+
+    <body>
+        <form action="action.html" method="get" enctype="text/plain">
+            <fieldset>
+               <legend>Login Window</legend> 
+    
+            UserName: <input type="text" name="uname" size="10" maxlength="100"><br>
+            Password: <input type="password" name="pw" size="10" maxlength="8" value="dreamtech"><br>
+            <input type="hidden" id="country" value="India"></form></br>
+            <input type="submit" onclick="alert('hello,' + document.getElementById('name').value+'from'+document.getElementById('country').value)" value="submit">
+            <br>
+            
+            Select one of the following options:<br>
+            <input type="checkbox" name="option1" value="milk">Milk<br>
+            <input type="checkbox" name="option2" value="tea" checked="checked">Tea<br>
+            <input type="checkbox" name="option3" value="coffee">Coffee<br>
+            <br>
+            Select one of the following options:<br>
+            <input type="radio" name="option1" value="milk" checked>Milk<br>
+            <input type="radio" name="option2" value="tea" >Tea<br>
+            <input type="radio" name="option3" value="coffee">Coffee<br>
+
+            <br>
+            <input type="submit" name="submit" value="click"><br>
+            <br>
+            <input type="reset" name="reset" value="Reset"><br>
+            <br>
+            <select>
+                <option value="mango">Mango</option>
+                <option value="banana">Banana</option>
+                <option value="Apple">Apple</option>
+            </select><br>
+
+            <br>
+            Select one of the item from fruits,veggies,trees:
+            <select>
+                <optgroup label="fruits">
+                    <option value="mango">Mango</option>
+                    <option value="apple">Apple</option>
+                    <option value="banana">Banana</option>
+                </optgroup>
+                <optgroup label="Veggies">
+                    <option value="cabbage">Cabbage</option>
+                    <option value="onion">Onion</option>
+                    <option value="methi">Methi</option>
+                </optgroup>
+                <optgroup label="trees">
+                    <option value="Baniyan">Baniyan</option>
+                    <option value="Treak">Treak</option>
+                    <option value="deodat">Deodar</option>
+                </optgroup>
+            </select>
+
+            <br>
+            <textarea>Comments</textarea>
+            </fieldset>
+
+       
+        <!-- <button type="submit">Submit</button><br>-->
+        <button type="submit" style="color:aqua"><b>Submit</b></button><br> 
+        <!-- <button type="submit"><img src="th.jpeg" width="50" height="50"></button>
+        <button type="submit"><img src="th (1).jpeg" width="50" height="50"></button> -->
+        </form>
+
+        <p>Enter the favourite Car</p>
+        <input type="text" name="favcar" list="cars">
+        <datalist id="cars">
+            <option value="bmw">
+            <option value="audi">
+            <option value="vista">  
+        </datalist>
+        <br>
+        current task is
+        <progress value="200" max="500">
+        </progress>
+        completed.
+        <br>
+        <meter value="5" min="0" max="10" style="width:200px"></meter>Passing score<br>
+        <meter value="7" min="0" max="10" style="width:200px"></meter>Your Score
+
+    </body>
+</html>
